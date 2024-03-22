@@ -1,5 +1,4 @@
 <p align="center">
-  <img src=".assets/devika-avatar.png" alt="Devika Logo" width="250">
 </p>
 
 <h1 align="center">🚀 Devika - Agentic AI Software Engineer 👩‍💻</h1>
@@ -8,6 +7,11 @@
 
 > [!IMPORTANT]  
 > This project is currently in a very early development/experimental stage. There are a lot of unimplemented/broken features at the moment. Contributions are welcome to help out with the progress!
+
+
+
+## 클로드3 api 작동함. 
+
 
 ## Table of Contents
 

@@ -75,9 +75,15 @@ Read [**ARCHITECTURE.md**](https://github.com/stitionai/devika/blob/main/ARCHITE
 
 The easiest way to run the project locally:
 
-1. Install `uv` - Python Package manager (https://github.com/astral-sh/uv)
-2. Install `bun` - JavaScript runtime (https://bun.sh/)
-3. Install and setup `Ollama` (https://ollama.com/)
+1. Install `uv` - Python Package manager (https://github.com/astral-sh/uv) :
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh 
+
+source $HOME/.cargo/env
+
+```
+4. Install `bun` - JavaScript runtime (https://bun.sh/)
+5. Install and setup `Ollama` (https://ollama.com/)
 
 Set the API Keys in the `config.toml` file. (This will soon be moving to the UI where you can set these keys from the UI itself without touching the command-line, want to implement it? See this issue: https://github.com/stitionai/devika/issues/3)
 

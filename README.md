@@ -82,7 +82,13 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.cargo/env
 
 ```
-4. Install `bun` - JavaScript runtime (https://bun.sh/)
+4. Install `bun` - JavaScript runtime (https://bun.sh/):
+```
+curl -fsSL https://bun.sh/install | bash
+  exec /bin/zsh 
+  bun --help 
+```
+
 5. Install and setup `Ollama` (https://ollama.com/)
 
 Set the API Keys in the `config.toml` file. (This will soon be moving to the UI where you can set these keys from the UI itself without touching the command-line, want to implement it? See this issue: https://github.com/stitionai/devika/issues/3)
